@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funny for Kids (SVG) - Star</title>
+    <style>
+        .starSVG {
+            width: 300px;
+            height:300px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <svg>
+        <polygon points="80,8 32,144 152,48 8,48 128,144"/>
+    </svg>
+    <div>
+        <span>svg 中 polygon 用来画多边形，只需要提供有序点的坐标值（x，y）就可以了。例如：</span>
+        <pre>
+            &lt;svg&gt;
+                &lt;polygon points=&quot;80,8 32,144 152,48 8,48 128,144&quot;/&gt;
+            &lt;/svg&gt;
+        </pre>
+    </div>
+
+    <svg>
+        <polygon points="80,8 32,144 152,48 8,48 128,144"
+                 style="fill:lime;" />
+    </svg>
+    <svg>
+        <polygon points="80,8 32,144 152,48 8,48 128,144"
+                 style="fill:lime;;stroke:purple;" />
+    </svg>
+    <svg>
+        <polygon points="80,8 32,144 152,48 8,48 128,144"
+                 style="fill:lime;;stroke:purple;fill-rule:evenodd;" />
+    </svg>
+    <svg>
+        <polygon points="80,8 32,144 152,48 8,48 128,144"
+                 style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+    </svg>
+    <svg>
+        <polygon points="80,8 32,144 152,48 8,48 128,144"
+                 style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;" />
+    </svg>
+</div>
+
+</body>
+</html>

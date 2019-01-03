@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Something - Dropdown Menu</title>
+    <style>
+        .dropdownMenu {
+            width: 30px;
+        }
+        .dropdownMenu .hrLine {
+            width: 80%;
+        }
+        .dropdownContent {
+            display: none;
+            min-width: 70px;
+            padding:5px 1px 5px 15px;
+            background-color: #f9f9f9;
+        }
+        .dropdownItem {
+            padding:5px 1px 5px 1px;
+        }
+        .dropdownMenu:hover .dropdownContent {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="dropdownMenu">
+        <hr class="hrLine"/>
+        <hr class="hrLine"/>
+        <hr class="hrLine"/>
+        <div class="dropdownContent">
+            <div class="dropdownItem">Home</div>
+            <div class="dropdownItem">Search</div>
+            <div class="dropdownItem">Upload</div>
+            <div class="dropdownItem">About</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
